@@ -80,5 +80,5 @@ def home():
 def health():
     return {"status": "healthy", "service": "Innovartus SaaS", "version": "1.0.0"}
 
-if name == 'main':
+if name == '_main_':
     app.run(debug=True)
