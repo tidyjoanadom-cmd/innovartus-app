@@ -1,7 +1,7 @@
 from flask import Flask, render_template_string
 import datetime
 
-app = Flask(name)
+app = Flask(_name_)
 
 HTML = """
 <!DOCTYPE html>
